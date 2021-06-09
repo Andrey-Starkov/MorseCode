@@ -143,7 +143,7 @@ namespace MorseCode
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(204, 935);
+            this.label1.Location = new System.Drawing.Point(204, 808);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(777, 55);
             this.label1.TabIndex = 7;
@@ -163,9 +163,10 @@ namespace MorseCode
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(443, 545);
+            this.pictureBox1.Location = new System.Drawing.Point(488, 544);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(295, 387);
+            this.pictureBox1.Size = new System.Drawing.Size(198, 235);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 9;
             this.pictureBox1.TabStop = false;
             // 

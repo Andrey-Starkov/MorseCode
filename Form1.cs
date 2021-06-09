@@ -67,8 +67,8 @@ namespace MorseCode
             {
                 Morse lang = new Morse(comboBox1.Text);
                 richTextBox2.Text = lang.MorseReverse(richTextBox1.Text,ref count);
-                if (count != 0)
-                    MessageBox.Show("Присутствуют символы не из азбуки Морза","Ошибка");
+                //if (count != 0)
+                //    MessageBox.Show("Присутствуют символы не из азбуки Морза","Ошибка");
                 return;
             }
         }
