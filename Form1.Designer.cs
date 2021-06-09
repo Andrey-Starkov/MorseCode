@@ -86,6 +86,7 @@ namespace MorseCode
             // 
             // comboBox1
             // 
+            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
             "RUS",
@@ -93,19 +94,21 @@ namespace MorseCode
             "Morse"});
             this.comboBox1.Location = new System.Drawing.Point(762, 179);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(378, 21);
+            this.comboBox1.Size = new System.Drawing.Size(378, 32);
             this.comboBox1.TabIndex = 3;
             // 
             // comboBox2
             // 
+            this.comboBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.ItemHeight = 24;
             this.comboBox2.Items.AddRange(new object[] {
             "RUS",
             "ENG",
             "Morse"});
             this.comboBox2.Location = new System.Drawing.Point(36, 166);
             this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(383, 21);
+            this.comboBox2.Size = new System.Drawing.Size(383, 32);
             this.comboBox2.TabIndex = 4;
             // 
             // button2
